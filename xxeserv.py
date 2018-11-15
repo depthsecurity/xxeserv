@@ -15,6 +15,7 @@ ip = ''
 
 def main(argv):
     global file
+    global ip
     global port
     try:
         opts, args = getopt.getopt(argv,"hp:f:i:",["port=","file=","ip="])
